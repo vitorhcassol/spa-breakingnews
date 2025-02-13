@@ -1,5 +1,10 @@
 import logo from "../../assets/images/LogoBN.png";
-import { Nav, ImageLogo, InputSpace, Button } from "./NavbarStyled";
+import {
+  Button,
+  ImagemLogo,
+  Nav,
+  InputSpace,
+} from "../../components/Navbar/NavbarStyled";
 
 export function Navbar() {
   return (
@@ -10,7 +15,7 @@ export function Navbar() {
           <input type="text" placeholder="Pesquise por um título" />
         </InputSpace>
 
-        <ImageLogo src={logo} alt="Logo do Breaking News" />
+        <ImagemLogo src={logo} alt="Logo do Breaking News" />
 
         <Button>Entrar</Button>
       </Nav>
