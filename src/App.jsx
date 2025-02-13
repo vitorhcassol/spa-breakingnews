@@ -1,13 +1,11 @@
 import Home from "./pages/Home/Home";
+import { GlobalStyled } from "./GlobalStyled";
 
 function App() {
-  //codigo js
-  const name = "Vitor";
-
   return (
     <>
+      <GlobalStyled />
       <Home />
-      <h6>{name}</h6>
     </>
   );
 }
